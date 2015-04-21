@@ -3,14 +3,14 @@ Part 2 - Preparation and Installation
 
 Every Mac supports a large numer of command line tools, however, not every program that you need for web development is included by default. This tutorial instructs you on how to prepare and configure your Mac to make it a powerful web development system.
 
-You do not need to deeply understand all the commands that are used here — they are explained briefly, but you do not lean to learn them yet. I am explaining only because it is YOUR computer and you should know what and why these tools have been added.
+You do not need to deeply understand all the commands that are used here — they are explained briefly, but you do not need to learn them yet. I am explaining only because it is YOUR computer and you should know what and why these tools have been added.
 
 System Updates
 --------------
 
-The first thing you need to do is to make sure that you have the most recent version of the OS, which as of the writing of this intro is Mac OS X Yosemite 10.10.3. Everything in these introduction files should work on previous version of the the OS, however, when you are doing web development it is important to have the most recent updates for security reasons.
+The first thing you need to do is to make sure that you have the most recent version of the OS, which as of the writing of this intro is Mac OS X Yosemite 10.10.3. Everything in these introduction files should work on previous version of the OS, however, when you are doing web development it is important to have the most recent updates for security reasons.
 
-You can get all your system updates by going the the _App Store…_ item under the Apple Menu, clicking on the _Updates_ tab and pressing the _Update All_ button. However, you can also do it from the command line.
+You can get all your system updates by going to the _App Store…_ item under the Apple Menu, clicking on the _Updates_ tab and pressing the _Update All_ button. However, you can also do it from the command line.
 
 The `sudo` command is used to run programs that need additional privileges to change your computer, and thus your Mac's administrative password. `/usr/sbin/softwareupdate -l` is the program that checks with Apple's update servers for the most recent version. You may need to execute this command multiple times, or even reboot your system if your Mac is not current.
 
@@ -74,7 +74,7 @@ All of these folders are optional — many you will not use until much later in 
 * ~/.dotfiles # This is where I backup my dotfiles (explained later) and store some other useful tools.
 * ~/.dotfiles/bin # This is where I keep small command line scripts that I use regularly.
 * ~/Applications # This is where I keep any GUI apps that are installed for development purposes seperate from those root /Applications folder.
-* ~/code # This is where store the source code from open source repositories from github
+* ~/code # This is where I store the source code from open source repositories from github
 * ~/Pool # This is where I store large files that I exclude from backing up on Time Machine. Great for movies, large installer files, etc. that I have backuped up elsewhere or are easily downloaded again from the net.
 * ~/projects # This is where I keep repositories of my own source code or others work-in-progress.
 * ~/temp # This is where I keep code and projects that are just temporary and can be deleted at any time. I practice here.
